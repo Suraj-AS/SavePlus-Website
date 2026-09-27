@@ -1,0 +1,12 @@
+/* Custom Styles & Smooth Animation Polish */
+html {
+    scroll-behavior: smooth;
+}
+
+.card-item {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card-item:hover {
+    transform: translateY(-4px);
+}
