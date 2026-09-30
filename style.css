@@ -10,3 +10,8 @@ html {
 .card-item:hover {
     transform: translateY(-4px);
 }
+
+/* Prevent sticky navbar from overlapping anchor jumps */
+section {
+    scroll-margin-top: 80px; /* Adjust this value depending on your navbar height */
+}
